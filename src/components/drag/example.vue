@@ -12,7 +12,7 @@
     <p>
       <label for="hideSourceOnDrag">
         <input id="hideSourceOnDrag" type="checkbox" role="checkbox" :checked="hideSourceOnDrag" @change="toggle" />
-        <small>Hide the source item while dragging</small>
+        <small>拖动时隐藏盒子</small>
       </label>
     </p>
   </div>

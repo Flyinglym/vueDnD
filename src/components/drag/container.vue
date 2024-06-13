@@ -22,8 +22,8 @@
       title: string
     }
   }>({
-    a: { top: 20, left: 80, title: "Drag me around" },
-    b: { top: 180, left: 20, title: "Drag me too" },
+    a: { top: 20, left: 80, title: "盒子一" },
+    b: { top: 180, left: 20, title: "盒子二" },
   })
 
   const moveBox = (id: string, left: number, top: number) => {
